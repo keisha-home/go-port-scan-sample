@@ -5,6 +5,7 @@ A simple Go port scanning tool, modified from another project.
 Just "go build main.go"
 
 # usage
+```
 main.exe
 
 Usage: PortScan [-h] [-t IP/CIDR] [-p Ports] [-n Threads] [-f File] [-o OutputFile] [-w Timeout]
@@ -16,3 +17,4 @@ Options:
  -f  Import ip lists file. Ex: ip.txt
  -o  Output file to save open ports (append mode)
  -w  Connection timeout in milliseconds (default 3000ms)
+```
