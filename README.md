@@ -5,7 +5,8 @@ A simple Go port scanning tool, modified from another project.
 Just "go build main.go"
 
 # usage
-> main.exe
+main.exe
+
 Usage: PortScan [-h] [-t IP/CIDR] [-p Ports] [-n Threads] [-f File] [-o OutputFile] [-w Timeout]
 Options:
  -h  Print the help page
